@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+#title {
+  background-image: url(images/headerimg.png);
+  background-size: contain;
+  text-align: center;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav {
+  font-family: "Jomhuria", cursive;
+  box-shadow: 3px 3px 3px;
+}
+
+a:hover {
+  background-color: #000000;
+  color: gold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body {
+  background-color: gray;
+  font-family: Verdana, Arial, sans-serif;
+  background-image: url(images/sunrize1.jpg);
+  background-color: aquamarine;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  /* width: auto; */
+  background-size: cover;
+}
+
+label {
+  font-family: "Jomhuria", cursive;
+  font-size: 35px;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  margin-right: 50px;
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  background-color: #333;
+}
+
+p {
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+form {
+  margin-left: 40%;
+}
+
+input {
+  text-align: center;
+}
+
+select {
+  text-align: center;
+}
+
+textarea {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+table {
+  width: 70%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+td {
+  padding: 20px;
+}
+
+#gtable {
+  border: 3px solid black;
+  width: 50%;
+  background-color: #333;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+
+#gtable2 {
+  width: 50%;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#tdn {
+  text-align: center;
+  border: 2px solid black;
+  width: 25%;
+}
+
+#tdt {
+  text-align: center;
+  border: 2px solid black;
+}
+
+#amg {
+  text-align: center;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  font-size: 50px;
+}
+
+#iqtitle {
+  text-align: center;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+#iq {
+  text-align: center;
+  width: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Jomhuria", cursive;
+  font-size: larger;
+  text-shadow: 2px 2px #000000;
+}
+
+#amgp {
+  text-align: center;
+  width: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: "Jomhuria", cursive;
+  font-size: larger;
+  text-shadow: 2px 2px #000000;
+}
+
+#zzv1 {
+  margin-left: 680px;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+#zzv2 {
+  margin-left: 680px;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+#zzv3 {
+  margin-left: 680px;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+}
+
+#container {
+  padding-left: 500;
+}
+
+.inc {
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  /* float: left; */
+  text-align: center;
+  /* padding-left: 200px; */
+}
+
+.comp {
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  /* float: right; */
+  text-align: center;
+  /* padding-right: 200px; */
+}
+.ng {
+  text-align: center;
+  font-family: "Jomhuria", cursive;
+  color: gold;
+  text-shadow: 2px 2px black;
+  text-decoration: underline;
+}
+
+footer {
+  clear: both;
+  background-color: #333;
+  /* color: #ffffff; */
+  text-shadow: 1px 1px white;
+  font-size: 0.6em;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: 2px;
+  padding-top: 10px;
+  box-shadow: 3px 3px 3px;
+}
